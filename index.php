@@ -1,4 +1,5 @@
 <?php
 
-$db = new PDO("mysql:host=db;dbname=myDb;port=3306;charset=UTF8", "user", "test");
+$db = new PDO("pgsql:host=db;dbname=myDb;port=5432", "user", 'test');
+echo 'hellow world!';
 
